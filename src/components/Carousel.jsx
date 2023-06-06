@@ -51,7 +51,7 @@ const Carousel = () => {
   //   const { title, description, buttonLabel, buttonLink } = slides[currentSlide];
 
   return (
-    <div className="relative h-screen w-full bg-[url('https://cdn.pixabay.com/photo/2017/02/08/09/50/gold-2048295_1280.jpg')] bg-fixed bg-center font-opensans">
+    <div className="w-full h-screen bg-[url('https://cdn.pixabay.com/photo/2017/02/08/09/50/gold-2048295_1280.jpg')] bg-fixed bg-center">
       <div className="flex w-full h-full justify-center">
         <div className="h-full w-full backdrop-blur-sm bg-black/80">
           {slides.map((slide, index) => (
