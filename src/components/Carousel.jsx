@@ -51,7 +51,7 @@ const Carousel = () => {
   //   const { title, description, buttonLabel, buttonLink } = slides[currentSlide];
 
   return (
-    <div className="relative w-full bg-[url('https://cdn.pixabay.com/photo/2017/02/08/09/50/gold-2048295_1280.jpg')] bg-fixed bg-center font-opensans bg-no-repeat">
+    <div className="relative w-full bg-[url('https://cdn.pixabay.com/photo/2017/02/08/09/50/gold-2048295_1280.jpg')] bg-fixed bg-center font-opensans bg-contain">
       <div className="flex justify-center">
         <div className="h-screen w-full backdrop-blur-sm bg-black/80">
           {slides.map((slide, index) => (
@@ -79,7 +79,10 @@ const Carousel = () => {
                     >
                       Get Started
                     </Link>
-                    <a href="#C2" className="text-sm font-semibold leading-6 text-white">
+                    <a
+                      href="#C2"
+                      className="text-sm font-semibold leading-6 text-white"
+                    >
                       Learn more <span aria-hidden="true">→</span>
                     </a>
                   </div>
@@ -89,7 +92,7 @@ const Carousel = () => {
           ))}
         </div>
       </div>
-      <div className="absolute top-1/2 transform -translate-y-1/2 left-4">
+      {/* <div className="absolute top-1/2 transform -translate-y-1/2 left-4">
         <button
           onClick={prevSlide}
           className="hover:text-gray-500 text-white font-bold py-2 px-4 rounded-l"
@@ -130,7 +133,7 @@ const Carousel = () => {
             />
           </svg>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
