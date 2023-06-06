@@ -6,7 +6,7 @@ import Withdrawal from "../../components/modal/Withdrawal";
 
 const Dashboard = () => {
   return (
-    <div className="w-full h-max p-8 flex flex-col gap-8 max-sm:pb-20">
+    <div className="w-full h-max p-8 flex flex-col gap-8 max-sm:pb-28">
       <div className="w-full pb-6 font-semibold text-black text-2xl">
         Dashboard
       </div>
