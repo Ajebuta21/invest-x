@@ -6,7 +6,7 @@ import Withdrawal from "../../components/modal/Withdrawal";
 
 const Dashboard = () => {
   return (
-    <div className="w-full h-max p-8 flex flex-col gap-8">
+    <div className="w-full h-max p-8 flex flex-col gap-8 max-sm:pb-20">
       <div className="w-full pb-6 font-semibold text-black text-2xl">
         Dashboard
       </div>
@@ -73,7 +73,7 @@ const Dashboard = () => {
         </div>
         <BitcionChart />
       </span>
-      <div className="w-full max-sm:h-72 bg-white shadow-md rounded-xl px-4 flex flex-col py-4 mb-10">
+      <div className="w-full max-sm:h-72 bg-white shadow-md rounded-xl px-4 flex flex-col py-4">
         <div className="py-2 font-semibold text-sky-400 text-lg">
           Your transactions
         </div>

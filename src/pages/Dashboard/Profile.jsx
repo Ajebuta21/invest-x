@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
-    <div className="w-full h-max p-8 flex flex-col gap-8">
+    <div className="w-full h-max p-8 flex flex-col gap-8 max-sm:pb-20">
       <div className="w-full pb-6 font-semibold text-black text-2xl">
         User Profile
       </div>
-      <div className="w-full h-fit bg-white shadow-md rounded-xl px-4 flex flex-col relative py-4 mb-10">
+      <div className="w-full h-fit bg-white shadow-md rounded-xl px-4 flex flex-col relative py-4">
         <img
           src={profile}
           alt="null"
