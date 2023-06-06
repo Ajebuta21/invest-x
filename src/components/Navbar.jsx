@@ -26,7 +26,7 @@ const Navbar = () => {
     }
   }, [scrollY]);
   return (
-    <nav className={`w-full h-[8vh] text-sky-400 fixed ${bg} z-40`}>
+    <nav className={`w-full h-[8vh] text-sky-400 fixed ${bg} z-40 font-opensans`}>
       <div className="w-full px-1 md:px-8  h-full flex justify-between items-center relative">
         <button onClick={(e) => setOpen(!open)} className="p-1 lg:hidden block">
           <svg
