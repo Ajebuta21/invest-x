@@ -159,7 +159,7 @@ const DashboardLayout = ({ children }) => {
   return (
     <div className="w-full h-screen bg-gray-100 flex items-center md:pl-8 font-opensans fixed">
       <nav
-        className={`w-72 py-10 z-50 max-md:h-full h-[92vh] bg-white shadow-lg px-4 flex flex-col items-center gap-2 max-md:fixed transition ease-in-out duration-500 md:rounded-xl ${
+        className={`w-72 py-10 z-50 max-md:h-full h-[92vh] bg-white shadow-lg px-4 flex flex-col items-center gap-2 max-md:fixed max-md:top-0 transition ease-in-out duration-500 md:rounded-xl ${
           open
             ? "max-md:opacity-100 max-md:translate-x-0"
             : "max-md:opacity-0 max-md:-translate-x-full"
