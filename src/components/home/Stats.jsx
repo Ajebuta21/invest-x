@@ -39,7 +39,7 @@ const Stats = () => {
   return (
     <div
       id="stats-section"
-      className="bg-[url('https://img.freepik.com/free-vector/graph-chart-with-moving-up-arrow-stock-market-financial-investment-diagram-blue-background_56104-1814.jpg?w=1060&t=st=1686019073~exp=1686019673~hmac=f1ff0dfab183842c0224770def728d23d15c37b35ceef0dae07f09e4aadc84f3')] bg-fixed bg-cover font-opensans"
+      className="bg-[url('https://img.freepik.com/free-vector/graph-chart-with-moving-up-arrow-stock-market-financial-investment-diagram-blue-background_56104-1814.jpg?w=1060&t=st=1686019073~exp=1686019673~hmac=f1ff0dfab183842c0224770def728d23d15c37b35ceef0dae07f09e4aadc84f3')] bg-fixed bg-cover font-opensans bg-cover"
     >
       <div
         className={`h-full w-full backdrop-blur-sm bg-black/30 py-24 sm:py-32 ${
